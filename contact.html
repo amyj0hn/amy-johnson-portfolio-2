@@ -144,11 +144,11 @@
                   <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
                 </div>
 
-                <!-- <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div> -->
-                  <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you.html">
+                  <!-- <div class="error-message"></div>  -->
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <input type="hidden" name="_redirect" value="https://amy-johnson-portfolio-2.vercel.app/thank-you.html">
 
 
                   <button type="submit">Send Message</button>
@@ -208,8 +208,7 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-
+  
 <script>
 document.querySelector('.php-email-form').addEventListener('submit', async function (e) {
   e.preventDefault();
@@ -240,15 +239,15 @@ document.querySelector('.php-email-form').addEventListener('submit', async funct
       document.querySelector('.error-message').style.display = 'block';
     }
   } catch (error) {
-    document.querySelector('.loading').style.display = 'none';
+    // document.querySelector('.loading').style.display = 'none';
     document.querySelector('.error-message').innerText = "Oops! Something went wrong.";
     document.querySelector('.error-message').style.display = 'block';
   }
 });
 </script>
 
-    
-  </script>
+
+  </scrip>
 
 </body>
 
