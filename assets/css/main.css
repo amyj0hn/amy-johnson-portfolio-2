@@ -146,6 +146,7 @@ h6 {
 .header .logo img {
   max-height: 36px;
   margin-right: 8px;
+  align-items: start;
 }
 
 .header .logo h1 {
@@ -1185,7 +1186,10 @@ section,
 }
 
 .portfolio .portfolio-item {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -1204,7 +1208,7 @@ section,
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
 
 .portfolio .portfolio-item .portfolio-info p {
