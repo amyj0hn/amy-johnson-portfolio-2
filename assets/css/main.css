@@ -1070,7 +1070,7 @@ section,
 }
 
 
-.services .service-item.item-pink i {
+/* .services .service-item.item-pink i {
   color: #34b7a7;
 }
 
@@ -1080,7 +1080,7 @@ section,
 
 .services .service-item.item-pink:hover .icon path {
   fill: #f3268c;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Section
@@ -1371,8 +1371,8 @@ section,
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500; }
-      /* .services.color-1 {
-    border-bottom: 2px solid #2c98f0; } */
+      .services.color-1 {
+    border-bottom: 2px solid #2c98f0; }
   .services.color-2 {
     border-bottom: 2px solid #ec5453; }
     .services.color-2 .icon2 i {
@@ -1406,8 +1406,8 @@ section,
     height: 50px;
     display: table;
     margin: 0 auto;
-    /* background: #2c98f0; */
-   }
+    background: #2c98f0;
+   }   
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
